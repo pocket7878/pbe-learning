@@ -18,3 +18,8 @@ Class {
 Counter >> count [
 	^ count
 ]
+
+{ #category : #accessing }
+Counter >> count:newCount [
+	count := newCount
+]
